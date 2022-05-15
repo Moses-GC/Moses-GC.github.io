@@ -133,6 +133,16 @@ input[type="name"]:focus, input[type="email"]:focus {
     box-shadow: inset 2px 2px 2px rgb(255, 0, 0);
 }
 
+input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
 input[type="feedback"] select{
     width: 100%;
     display: block;
@@ -277,6 +287,11 @@ table tr :nth-child(3) {
 
     .content-area {
         margin-top: 215px;
+    }
+
+    input {
+        box-sizing: border-box;
+        width: 100%;
     }
 
     textarea {
