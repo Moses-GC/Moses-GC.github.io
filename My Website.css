@@ -241,6 +241,7 @@ table tr :nth-child(3) {
     border: 3px solid gold;
     border-bottom: none;
     display: block;
+    background-color: orange;
 }
 /*End Site Navigation*/
 
